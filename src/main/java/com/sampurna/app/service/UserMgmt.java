@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class UserMgmt {
-    List<ViewUsers> list = new ArrayList<>(Arrays.asList(new ViewUsers("arpita","kol", 52)));
+    List<ViewUsers> list = new ArrayList<>(Arrays.asList(new ViewUsers("A","B", 52)));
     public List<ViewUsers> getList()
     {
         return list;
