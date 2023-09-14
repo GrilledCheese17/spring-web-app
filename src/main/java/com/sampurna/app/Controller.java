@@ -25,9 +25,9 @@ public class Controller {
     public ViewUsers[] getLoginDetails()
     {
         List<ViewUsers> list = new ArrayList<ViewUsers>();
-        list.add(new ViewUsers("sampurna","kolkata",27));
-        list.add(new ViewUsers("avirup","mumbai",24));
-        list.add(new ViewUsers("buo","blr",19));
+        list.add(new ViewUsers("X","A",27));
+        list.add(new ViewUsers("Y","B",24));
+        list.add(new ViewUsers("Z","C",19));
         return list.toArray(new ViewUsers[0]);
 
     }
